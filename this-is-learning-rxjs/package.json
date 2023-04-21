@@ -1,0 +1,19 @@
+{
+  "name": "this-is-learning-rxjs",
+  "version": "1.0.0",
+  "description": "a package that contains code of me learning Observables and the Observer subscriber pattern with rxjs from thisislearning",
+  "main": "part2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rxjs",
+    "Observables",
+    "async"
+  ],
+  "author": "madebyibukunoluwa",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^7.8.0"
+  }
+}
