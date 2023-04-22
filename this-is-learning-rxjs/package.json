@@ -1,7 +1,7 @@
 {
   "name": "this-is-learning-rxjs",
   "version": "1.0.0",
-  "description": "a package that contains code of me learning Observables and the Observer subscriber pattern with rxjs from thisislearning",
+  "description": "a package that contains code of me learning Observables and the Observer subscriber pattern with rxjs from this is learning",
   "main": "part2.js",
   "type": "module",
   "scripts": {
@@ -15,6 +15,7 @@
   "author": "madebyibukunoluwa",
   "license": "ISC",
   "dependencies": {
-    "rxjs": "^7.8.0"
+    "rxjs": "^7.8.0",
+    "typescript": "^5.0.4"
   }
 }

@@ -1,5 +1,5 @@
-import { from,map,skip,filter,take,first,distinct,distinctUntilChanged,timer,interval,combineLatest} from "rxjs"
-
+import { from,map,skip,filter,take,first,distinct,distinctUntilChanged,timer,interval,combineLatest,withLatestFrom} from "rxjs"
+import {fromFetch} from 'rxjs/fetch'
 // The iterator and Observer patterns 
 
 
@@ -246,5 +246,18 @@ sourcesCombined.subscribe((val) => console.log(val))
 
 
 /**
- * 
+ * withLatestFrom we received a new value each tme any of the two streams emitted , but in situautipns we want to receive a new value only when the source Observable emits, we will use with LatestFrom()
+ */
+
+
+const sourceWithLatestFrom = sourceFirst.pipe(withLatestFrom(sourceSecond))
+
+
+/**
+ * mergeMap 
+ */
+
+
+/**
+ * switchMap
  */
