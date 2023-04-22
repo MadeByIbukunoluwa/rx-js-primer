@@ -283,3 +283,7 @@ The lambda calculus helps us to describe programs as data transformations using 
 - Because of this, we can break the complexity of any program and achieve any problem as a sequence of steps
 
 “OO makes code understandable by encapsulating moving parts. FP makes code understandable by minimizing moving parts.”
+
+FP is declarative;
+
+[read more](https://this-is-learning.github.io/rxjs-fundamentals-course/docs/part-7)
