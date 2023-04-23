@@ -214,3 +214,5 @@ deferredRandom$.subscribe(observer)
 //  How does this help? Imagine you'd need to retry some Observable pipeline and at the beginning of this pipeline, 
 //  you'd have a comparison against a value that can change, defer() makes sure that when the pipeline occurs (aka is subscribed to), 
 //  the comparison happens with the latest values.
+
+

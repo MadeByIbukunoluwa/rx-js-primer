@@ -252,7 +252,9 @@ sourcesCombined.subscribe((val) => console.log(val))
 
 const sourceWithLatestFrom = sourceFirst.pipe(withLatestFrom(sourceSecond))
 
-
+/**
+ * merge
+ */
 /**
  * mergeMap 
  */
@@ -260,4 +262,12 @@ const sourceWithLatestFrom = sourceFirst.pipe(withLatestFrom(sourceSecond))
 
 /**
  * switchMap
+ */
+
+/**
+ * ExhaustMap
+ */
+
+/**
+ * finalize
  */
